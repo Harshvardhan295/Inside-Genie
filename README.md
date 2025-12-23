@@ -42,7 +42,7 @@ InsightGen is a GenAI-powered dashboard generator that converts natural language
 
 3\. Add:
 
-&nbsp;  GEMINI\_API\_KEY=your\_api\_key\_here
+&nbsp;  GOOGLE\_API\_KEY=your\_api\_key\_here
 
 4\. Install dependencies:
 
