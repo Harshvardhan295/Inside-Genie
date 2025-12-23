@@ -1,0 +1,54 @@
+# .gitignore for Streamlit + Python projects
+# Generated to ignore environment files and common Python/IDE artifacts
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+
+# Environment variables (explicitly ignore .env)
+.env
+.env.*
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# Python tooling
+.mypy_cache/
+.pytest_cache/
+/.cache
+.coverage
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large/untracked data (optional)
+data/
+models/
+checkpoints/
